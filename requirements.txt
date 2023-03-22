@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+sklearn
+re
+pyspellchecker==0.7.1
+nltk==3.8.1
