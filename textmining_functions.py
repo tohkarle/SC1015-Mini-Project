@@ -46,7 +46,13 @@ def correct_spelling(tweets):
     spell = SpellChecker()
     corrected_tweets = []
     for tokens in tweets:
-        corrected_tokens = [spell.correction(token) for token in tokens]
+        corrected_tokens = []
+        for token in tokens:
+            corrected_token = spell.correction(token)
+            if corrected_token:
+                corrected_tokens.append(corrected_token)
+            else:
+                corrected_tokens.append(token)
         corrected_tweets.append(corrected_tokens)
     return corrected_tweets
 
