@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import ast
+from sklearn.decomposition import PCA
 
 def build_vocab(df_column):
     vocab = set()
@@ -36,6 +37,21 @@ def average_embeddings_glove(tokens, embeddings, embedding_dim):
     avg_vector = np.mean(token_vectors, axis=0)
     return avg_vector
 
+
+def average_embeddings_glove_custom(tokens, glove_embeddings, word2vec_model, embedding_dim):
+    token_vectors = []
+    
+    for token in tokens:
+        if token in glove_embeddings:
+            token_vectors.append(glove_embeddings[token])
+        elif token in word2vec_model:
+            token_vectors.append(word2vec_model[token])
+        else:
+            token_vectors.append(np.zeros(embedding_dim))
+
+    avg_vector = np.mean(token_vectors, axis=0)
+    return avg_vector
+
 def average_embeddings_fasttext(tokens, fasttext_model):
     token_vectors = []
     for token in tokens:
@@ -46,3 +62,15 @@ def average_embeddings_fasttext(tokens, fasttext_model):
             pass  # Ignore words not in the FastText vocabulary
     avg_vector = np.mean(token_vectors, axis=0)
     return avg_vector
+
+def reduce_vector_dimension(column, n_components=50):
+    # Convert the column of vectors into a NumPy array
+    vectors = np.vstack(column)
+
+    # Initialize PCA with the desired number of components
+    pca = PCA(n_components=n_components)
+
+    # Fit PCA on vectors and transform them
+    reduced_vectors = pca.fit_transform(vectors)
+
+    return pd.Series(list(reduced_vectors))
