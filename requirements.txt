@@ -7,7 +7,9 @@ pillow
 matplotlib
 seaborn
 gensim
-ast
-pickle
+category_encoders
+#ast
+#pickle
 pyspellchecker
 nltk
+gensim
