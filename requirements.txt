@@ -15,3 +15,5 @@ pyspellchecker
 nltk
 gensim
 nbdime
+transformers
+torch  
