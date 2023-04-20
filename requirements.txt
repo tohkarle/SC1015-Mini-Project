@@ -2,6 +2,7 @@ numpy
 pandas
 scipy
 scikit-learn
+scikit-optimize
 scikit-image
 pillow
 matplotlib
@@ -13,4 +14,6 @@ category_encoders
 pyspellchecker
 nltk
 gensim
-os
+nbdime
+transformers
+torch  
