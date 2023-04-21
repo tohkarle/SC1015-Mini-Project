@@ -68,8 +68,8 @@ Given the significant role Twitter plays as a crucial communication channel duri
 1. Text Mining techniques
 2. Feature Extraction such as meta features
 3. How to use text embeddings to generate meaningful information out from raw text
-4. Hyperparameter tuning with Bayesian Optimization
-5. How to initialize and train traditional and transformer models with cross-fold validation
+4. How to initialize and train traditional and transformer models with cross-fold validation
+5. Hyperparameter tuning with Bayesian Optimization
 
 ## References
 
