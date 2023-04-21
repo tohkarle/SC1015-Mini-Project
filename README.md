@@ -48,9 +48,9 @@ Converting text into embeddings helps to represent words in a high-dimensional s
     - glove_50d_0v.csv
     - glove_50d_custom.csv
 3. Fasttext
-4.  - fasttext-300d.csv 
+    - fasttext-300d.csv 
 5. Word2vec
-6.  -  word2vec_50d.csv
+    -  word2vec_50d.csv
 
 ## Traditional Models 
 
