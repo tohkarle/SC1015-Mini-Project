@@ -8,10 +8,10 @@ With the recent advent of disruptive technologies employing state of the art NLP
 1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
     - Data cleaning
     - Text mining
-    - Keyword Feature Analysis
-    - Location Feature Analysis
-    - Target Distribution Analysis
-    - Meta Features Analysis
+    - Keyword Feature 
+    - Location Feature 
+    - Target Distribution 
+    - Meta Features 
 2. [Converting to Text Embeddings](https://github.com/tohkarle/SC1015-mini-project/tree/main/word_embeddings)  
     - [Fasttext (Pre-trained)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/glove_fasttext.ipynb)
     - [GloVe (Pre-trained)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/glove_fasttext.ipynb)
