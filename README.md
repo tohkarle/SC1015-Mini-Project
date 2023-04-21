@@ -21,7 +21,7 @@ The order of the python notebooks are as follow:
     - [Logistic Regression](https://github.com/nicklimmm/movie-analysis/blob/main/traditional_models/logistic-regression.ipynb)
     - [Random Forest Classifier](https://github.com/tohkarle/SC1015-mini-project/blob/main/traditional_models/random-forest.ipynb)
     - [Gradient Boosting](https://github.com/tohkarle/SC1015-mini-project/blob/main/traditional_models/gradient_boosting.ipynb)
- 4.[Transformer Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/transformer_models)
+4. [Transformer Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/transformer_models)
     - [BERT](https://github.com/nicklimmm/movie-analysis/blob/main/transformer_models/BERT.ipynb)
     - [GPT-2](https://github.com/nicklimmm/movie-analysis/blob/main/transformer_models/GPT2.ipynb)
     
