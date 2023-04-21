@@ -35,19 +35,30 @@ With the recent advent of disruptive technologies employing state of the art NLP
 
 Given the significant role Twitter plays as a crucial communication channel during emergencies, it is a platform where people can provide real-time updates on disasters as they unfold. As a result, various agencies, including disaster relief organizations and news agencies, are keen on monitoring Twitter for relevant information automatically. However, accurately predicting a real disaster tweet can prove challenging in practice, because some tweets may contain misleading words or phrases that a machine may mistake for a disaster. 
 
-## Embedding Models Used
+## Embedding Models
+
+Converting text into embeddings helps to represent words in a high-dimensional space, such that the relationships between words are preserved. This step is necessary as it allows us to use the vector representation of a word as a feature in our traditional machine learning models. We will take the average embedding derived from each tweet.
+- The file naming convention is as follows: [Embedding Model]_[Vector Dimension]_[Average Embedding for OOV]
+- Eg. glove_50_0v.csv implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
+##### Note:
+- fasttext uses subword information so it does not have a tag for how it calculates average embedding.
+- The dataset was used to generate custom embedding through word2vec, so there are no OOV words for word2vec output.
 
 1. GloVe
-2. Fasttext
-3. Word2vec
+    - glove_50d_0v.csv
+    - glove_50d_custom.csv
+3. Fasttext
+4.  - fasttext-300d.csv 
+5. Word2vec
+6.  -  word2vec_50d.csv
 
-## Traditional Models used
+## Traditional Models 
 
 1. Logistic Regression
 2. Random Forest Classifier
 3. Gradient Boosting
 
-## Transformer Models used
+## Transformer Models
 
 1. BERT
 2. GPT-2
