@@ -2,7 +2,7 @@
 
 ## About
 This is a "Getting Started" kaggle competition for NLP which we have chosen as our SC1015 Mini Project.
-With the recent advent of disruptive technologies employing state of the art NLP techniques such as chatGPT, we are looking to explore the difference which traditional and transformer models differ in performance, and how it can translates to real world applications such as predicting disasters with tweets.
+With the recent advent of disruptive technologies employing state of the art NLP techniques such as chatGPT, we are looking to explore the difference which traditional and transformer models differ in performance, and how it can apply to real world applications such as predicting disasters with tweets.
 <br>The order of the python notebooks are as follow:
 
 1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
@@ -52,8 +52,24 @@ Given the significant role Twitter plays as a crucial communication channel duri
 1. BERT
 2. GPT-2
 
-## What did we learn from this project?
+## Conclusion
 
+1. GPT-2 performed the best out of all the models that were chosen (BERT was a close second).
+2. Transformer models performed generally better than Traditional models with text data.
+3. The choice of embedding models and traditional models did not significantly impact the final accuracy score.
+4. Text Feature was the most important predictor among all features.
+
+## Reasoning
+1. Text mining and converting to text embeddings is a pre-requisite for traditional models, and the process could have resulted in loss of information. This pales in comparison to transformer models that can do the entire process by itself using the encoding and decoding mechanism.
+2. The self-attention mechanism of Transformers could have resulted in more accurate text embeddings which capture the semantics of the raw text itself.
+3. 
+
+## Skills Involved
+1. Text Mining techniques
+2. Feature Extraction such as meta features
+3. How to use text embeddings to generate meaningful information out from raw text
+4. Hyperparameter tuning with Bayesian Optimization
+5. How to initialize and train traditional and transformer models with cross-fold validation
 
 ## References
 
