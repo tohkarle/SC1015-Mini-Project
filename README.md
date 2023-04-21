@@ -42,7 +42,7 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 - Eg. glove_50_0v.csv implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
 ##### Note:
 - fasttext uses subword information so it does not have a tag for how it calculates average embedding.
-- The dataset was used to generate custom embedding through word2vec, so there are no OOV words for word2vec output.
+- For word2vec, the dataset was used to generate custom embedding through word2vec, so there are no OOV words.
 
 1. GloVe
     - glove_50d_0v.csv
