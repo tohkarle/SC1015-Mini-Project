@@ -2,8 +2,8 @@
 
 ## About
 This is a "Getting Started" kaggle competition for NLP which we have chosen as our SC1015 Mini Project.
-With the recent advent of disruptive technologies employing state of the art NLP techniques such as chatGPT, we are looking to explore the difference which traditional transformer models differ in performance, and how it can translates to real world applications such as predicting disasters with tweets.
-The order of the python notebooks are as follow:
+With the recent advent of disruptive technologies employing state of the art NLP techniques such as chatGPT, we are looking to explore the difference which traditional and transformer models differ in performance, and how it can translates to real world applications such as predicting disasters with tweets.
+<br>The order of the python notebooks are as follow:
 
 1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
     - Data cleaning
