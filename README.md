@@ -62,7 +62,6 @@ Given the significant role Twitter plays as a crucial communication channel duri
 ## Reasoning
 1. Text mining and converting to text embeddings is a pre-requisite for traditional models, and the process could have resulted in loss of information. This pales in comparison to transformer models that can do the entire process by itself using the encoding and decoding mechanism.
 2. The self-attention mechanism of Transformers could have resulted in more accurate text embeddings which better capture the semantics of the raw text itself.
-3. 
 
 ## Skills Involved
 1. Text Mining techniques
