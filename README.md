@@ -72,7 +72,13 @@ Given the significant role Twitter plays as a crucial communication channel duri
 5. Hyperparameter tuning with Bayesian Optimization
 
 ## References
-https://www.kaggle.com/competitions/nlp-getting-started/overview
-https://towardsdatascience.com/a-guide-to-word-embeddings-8a23817ab60f
+- https://www.kaggle.com/competitions/nlp-getting-started/overview
+- https://towardsdatascience.com/a-guide-to-word-embeddings-8a23817ab60f
+- https://nlp.stanford.edu/projects/glove/
+- https://www.tensorflow.org/tutorials/text/word2vec
+- https://fasttext.cc/docs/en/support.html
+- https://huggingface.co/docs/transformers/model_doc/bert
+- https://scikit-learn.org/stable/
+
 
 
