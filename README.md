@@ -87,7 +87,9 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 - https://nlp.stanford.edu/projects/glove/
 - https://www.tensorflow.org/tutorials/text/word2vec
 - https://fasttext.cc/docs/en/support.html
+- https://xgboost.readthedocs.io/en/stable/
 - https://huggingface.co/docs/transformers/model_doc/bert
+- https://huggingface.co/docs/transformers/model_doc/gpt2
 - https://scikit-learn.org/stable/
 
 
