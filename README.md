@@ -78,8 +78,9 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 1. Text Mining techniques
 2. Feature Extraction such as meta features and Target Encoding
 3. How to use text embeddings to generate meaningful information out from raw text
-4. How to initialize and train traditional and transformer models with cross-fold validation
-5. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
+4. How to initialize and train traditional and transformer models with k-fold cross validation
+5. Using Datasets, DataLoaders, Trainers from the transformers library
+6. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
 
 ## References
 - https://www.kaggle.com/competitions/nlp-getting-started/overview
