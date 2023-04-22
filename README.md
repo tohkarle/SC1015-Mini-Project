@@ -90,6 +90,8 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 - https://xgboost.readthedocs.io/en/stable/
 - https://huggingface.co/docs/transformers/model_doc/bert
 - https://huggingface.co/docs/transformers/model_doc/gpt2
+- https://huggingface.co/docs/evaluate/a_quick_tour
+- https://huggingface.co/docs/transformers/v4.28.1/en/main_classes/trainer
 - https://scikit-learn.org/stable/
 
 
