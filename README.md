@@ -74,9 +74,9 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 1. Text mining and converting to text embeddings is a pre-requisite for traditional models, and the process could have resulted in loss of information. This pales in comparison to transformer models that can do the entire process by itself using the encoding and decoding mechanism.
 2. The self-attention mechanism of Transformers could have resulted in more accurate text embeddings which better capture the semantics of the raw text itself.
 
-## Skills Involved
+## Skills Acquired
 1. Text Mining techniques
-2. Feature Extraction such as meta features
+2. Feature Extraction such as meta features and Target Encoding
 3. How to use text embeddings to generate meaningful information out from raw text
 4. How to initialize and train traditional and transformer models with cross-fold validation
 5. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
