@@ -1,6 +1,8 @@
-__pycache__/
-fasttext_model.bin
-fasttext_model.bin.vectors.npy
-glove_embeddings.pkl
-word_embeddings/word2vec_model.model
-BERT_saved_model_concatenated/
+# Ignore all files
+*
+
+# Whitelist .ipynb files
+!*.ipynb
+
+# Whitelist .csv files
+!*.csv
