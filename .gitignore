@@ -1,8 +1,8 @@
-# Ignore all files
-*
+# # Ignore all files
+# *
 
-# Whitelist .ipynb files
-!*.ipynb
+# # Whitelist .ipynb files
+# !*.ipynb
 
-# Whitelist .csv files
-!*.csv
+# # Whitelist .csv files
+# !*.csv
