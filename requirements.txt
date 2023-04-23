@@ -17,3 +17,7 @@ gensim
 nbdime
 transformers
 torch  
+xgboost
+hyperopt
+datasets
+evaluate
