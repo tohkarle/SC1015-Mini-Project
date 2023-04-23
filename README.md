@@ -37,7 +37,8 @@ Given the significant role Twitter plays as a crucial communication channel duri
 
 ## Embedding Models
 
-- The file naming convention is as follows: [Embedding Model][Vector Dimension][Average Embedding for OOV]
+Converting text into embeddings helps to represent words in a high-dimensional space, such that the relationships between words are preserved. This step is necessary as it allows us to use the vector representation of a word as a feature in our traditional machine learning models. We will take the average embedding derived from each tweet.
+- The file naming convention is as follows: [Embedding Model]_[Vector Dimension]_[Average Embedding for OOV]
 - Eg. glove_50_0v.csv implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
 #### Note:
 - fasttext uses subword information so it does not have a tag for how it calculates average embedding.
