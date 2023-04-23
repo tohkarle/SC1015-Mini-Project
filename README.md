@@ -37,7 +37,6 @@ Given the significant role Twitter plays as a crucial communication channel duri
 
 ## Embedding Models
 
-Converting text into embeddings helps to represent words in a high-dimensional space, such that the relationships between words are preserved. This step is necessary as it allows us to use the vector representation of a word as a feature in our traditional machine learning models. We will take the average embedding derived from each tweet.
 - The file naming convention is as follows: [Embedding Model][Vector Dimension][Average Embedding for OOV]
 - Eg. glove_50_0v.csv implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
 #### Note:
@@ -54,17 +53,22 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 
 ## Traditional Models 
 
-These are simple classification models chosen for these problem. It is important to identify how different classification models may perform relative to each other.
-
 1. Logistic Regression
 2. Random Forest Classifier
 3. Gradient Boosting
 
 ## Transformer Models
 
-These models belong to a special type of neural network designed specifically for receiving text data, as depicted in the research paper "Attention is All You Need". We look to explore how well these models perform in predicting disasters with tweets against traditional models.
+#### Note: There are 3 files for BERT each using 3 different approaches while leveraging on the pre-trained BERT model. 
+    
 
 1. BERT
+    - BERT_BFSC.ipynb
+        - This file uses `BertForSequenceClassifier` and Trainer modules from transformers library. 
+    - BERT_numerical.ipynb
+        - This file combines text feature and numerical features in the Neural Network.
+    - BERT_CC.ipynb
+        - This file explores using text feature by itself, and concatenating text feature with numericals into 1 text feature
 2. GPT-2
 
 ## Conclusion
