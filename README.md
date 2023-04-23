@@ -2,7 +2,6 @@
 
 ## About
 This is a "Getting Started" kaggle competition for NLP which we have chosen as our SC1015 Mini Project.
-With the recent advent of disruptive technologies employing state of the art NLP techniques such as chatGPT, we are looking to explore the difference which traditional and transformer models differ in performance, and how it can apply to real world applications such as predicting disasters with tweets.
 <br>The order of the python notebooks are as follow:
 
 1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
@@ -43,7 +42,6 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 
 #### Note: There are 3 files for BERT each using 3 different approaches while leveraging on the pre-trained BERT model. 
     
-
 1. BERT
     - BERT_BFSC.ipynb
         - This file uses `BertForSequenceClassifier` and `Trainer` modules from transformers library. 
