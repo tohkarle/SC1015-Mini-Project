@@ -4,7 +4,7 @@
 This is a "Getting Started" kaggle competition for NLP which we have chosen as our SC1015 Mini Project.
 <br>The order of the python notebooks are as follow:
 
-1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
+1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/preprocessing)
 2. [Converting to Text Embeddings](https://github.com/tohkarle/SC1015-mini-project/tree/main/word_embeddings)  
 3. [Traditional Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/traditional_models)
 4. [Transformer Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/transformer_models)
