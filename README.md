@@ -21,7 +21,7 @@ Given the significant role Twitter plays as a crucial communication channel duri
 
 ## Embedding Models
 
-- The file naming convention is as follows: [Embedding Model]_[Vector Dimension]_[Average Embedding for OOV]
+- The file naming convention is as follows: [Embedding Model][Vector Dimension][Average Embedding for OOV]
 - Eg. `glove_50_0v.csv` implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
 #### Note:
 - fasttext uses subword information so it does not have a tag for how it calculates average embedding.
