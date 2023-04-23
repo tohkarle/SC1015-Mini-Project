@@ -82,6 +82,7 @@ Given the significant role Twitter plays as a crucial communication channel duri
 - https://huggingface.co/docs/transformers/v4.28.1/en/main_classes/trainer
 - https://scikit-learn.org/stable/
 - https://arxiv.org/pdf/1706.03762.pdf
+- https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert
 
 
 
