@@ -60,7 +60,16 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 
 ## Transformer Models
 
+#### Note: There are 3 files for BERT each using 3 different approaches while leveraging on the pre-trained BERT model. 
+    
+
 1. BERT
+    - BERT_BFSC.ipynb
+        - This file uses `BertForSequenceClassifier` and Trainer modules from transformers library. 
+    - BERT_numerical.ipynb
+        - This file combines text feature and numerical features in the Neural Network.
+    - BERT_CC.ipynb
+        - This file explores using text feature by itself, and concatenating text feature with numericals into 1 text feature
 2. GPT-2
 
 ## Conclusion
@@ -74,12 +83,13 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 1. Text mining and converting to text embeddings is a pre-requisite for traditional models, and the process could have resulted in loss of information. This pales in comparison to transformer models that can do the entire process by itself using the encoding and decoding mechanism.
 2. The self-attention mechanism of Transformers could have resulted in more accurate text embeddings which better capture the semantics of the raw text itself.
 
-## Skills Involved
+## Skills Acquired
 1. Text Mining techniques
-2. Feature Extraction such as meta features
+2. Feature Extraction such as meta features and Target Encoding
 3. How to use text embeddings to generate meaningful information out from raw text
-4. How to initialize and train traditional and transformer models with cross-fold validation
-5. Hyperparameter tuning with Bayesian Optimization
+4. How to initialize and train traditional and transformer models with k-fold cross validation
+5. Using Datasets, DataLoaders, Trainers from the transformers library
+6. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
 
 ## References
 - https://www.kaggle.com/competitions/nlp-getting-started/overview
@@ -87,8 +97,13 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 - https://nlp.stanford.edu/projects/glove/
 - https://www.tensorflow.org/tutorials/text/word2vec
 - https://fasttext.cc/docs/en/support.html
+- https://xgboost.readthedocs.io/en/stable/
 - https://huggingface.co/docs/transformers/model_doc/bert
+- https://huggingface.co/docs/transformers/model_doc/gpt2
+- https://huggingface.co/docs/evaluate/a_quick_tour
+- https://huggingface.co/docs/transformers/v4.28.1/en/main_classes/trainer
 - https://scikit-learn.org/stable/
+- https://arxiv.org/pdf/1706.03762.pdf
 
 
 
