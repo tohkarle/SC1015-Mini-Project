@@ -2,4 +2,5 @@ __pycache__/
 fasttext_model.bin
 fasttext_model.bin.vectors.npy
 glove_embeddings.pkl
+word2vec_model.model
 BERT_saved_model_concatenated/
