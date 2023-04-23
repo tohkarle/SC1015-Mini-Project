@@ -6,25 +6,10 @@ With the recent advent of disruptive technologies employing state of the art NLP
 <br>The order of the python notebooks are as follow:
 
 1. [Data Preprocessing](https://github.com/tohkarle/SC1015-mini-project/blob/main/data_preprocessing.ipynb)
-    - Data cleaning
-    - Text mining
-    - Keyword Feature 
-    - Location Feature 
-    - Target Distribution 
-    - Meta Features 
 2. [Converting to Text Embeddings](https://github.com/tohkarle/SC1015-mini-project/tree/main/word_embeddings)  
-    - [Fasttext (Pre-trained)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/glove_fasttext.ipynb)
-    - [GloVe (Pre-trained)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/glove_fasttext.ipynb)
-    - [Word2vec (Trained on Dataset)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/word2vec.ipynb)
-    - [GloVe + Word2vec (Pre-trained + OOV replaced with custom embeddings)](https://github.com/tohkarle/SC1015-mini-project/blob/main/word_embeddings/glove_fasttext.ipynb)
 3. [Traditional Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/traditional_models)
-    - [Logistic Regression](https://github.com/nicklimmm/movie-analysis/blob/main/traditional_models/logistic-regression.ipynb)
-    - [Random Forest Classifier](https://github.com/tohkarle/SC1015-mini-project/blob/main/traditional_models/random-forest.ipynb)
-    - [Gradient Boosting](https://github.com/tohkarle/SC1015-mini-project/blob/main/traditional_models/gradient_boosting.ipynb)
 4. [Transformer Model Training and Evaluation](https://github.com/tohkarle/SC1015-mini-project/tree/main/transformer_models)
-    - [BERT](https://github.com/nicklimmm/movie-analysis/blob/main/transformer_models/BERT.ipynb)
-    - [GPT-2](https://github.com/nicklimmm/movie-analysis/blob/main/transformer_models/GPT2.ipynb)
-    
+   
 ## Contributors
 
 - Ler Hong @llerhong - Data Preprocessing, Logistic Regression, Research and Presentation
