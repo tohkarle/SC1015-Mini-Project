@@ -21,3 +21,4 @@ xgboost
 hyperopt
 datasets
 evaluate
+accelerate
