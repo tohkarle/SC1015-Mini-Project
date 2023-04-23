@@ -66,7 +66,7 @@ Given the significant role Twitter plays as a crucial communication channel duri
 2. Feature Extraction such as meta features and Target Encoding
 3. How to use text embeddings to generate meaningful information out from raw text
 4. How to initialize and train traditional and transformer models with k-fold cross validation
-5. Learn how to utilize `transformers` and `scikit-learn` library
+5. Learn how to utilize the `transformers` and `scikit-learn` library
 6. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
 
 ## References
