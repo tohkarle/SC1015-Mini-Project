@@ -39,7 +39,7 @@ Given the significant role Twitter plays as a crucial communication channel duri
 
 ## Transformer Models
 
-#### Note: There are 3 files for BERT each using 3 different approaches while leveraging on the pre-trained BERT model. 
+#### Note: There are 3 files for BERT each using different approaches while leveraging on the pre-trained BERT model. 
     
 1. BERT
     - BERT_BFSC.ipynb
