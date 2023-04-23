@@ -39,18 +39,14 @@ Given the significant role Twitter plays as a crucial communication channel duri
 
 Converting text into embeddings helps to represent words in a high-dimensional space, such that the relationships between words are preserved. This step is necessary as it allows us to use the vector representation of a word as a feature in our traditional machine learning models. We will take the average embedding derived from each tweet.
 - The file naming convention is as follows: [Embedding Model]_[Vector Dimension]_[Average Embedding for OOV]
-- Eg. glove_50_0v.csv implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
+- Eg. `glove_50_0v.csv` implies it uses GloVe embedding with a vector dimension of 50 and OOV words are replaced with 0 vectors.
 #### Note:
 - fasttext uses subword information so it does not have a tag for how it calculates average embedding.
 - For word2vec, the dataset was used to generate custom embedding through word2vec, so there are no OOV words.
 
 1. GloVe
-    - glove_50d_0v.csv
-    - glove_50d_custom.csv
-3. Fasttext
-    - fasttext-300d.csv 
+3. Fasttext 
 5. Word2vec
-    -  word2vec_50d.csv
 
 ## Traditional Models 
 
@@ -65,9 +61,9 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 
 1. BERT
     - BERT_BFSC.ipynb
-        - This file uses `BertForSequenceClassifier` and Trainer modules from transformers library. 
+        - This file uses `BertForSequenceClassifier` and `Trainer` modules from transformers library. 
     - BERT_numerical.ipynb
-        - This file combines text feature and numerical features in the Neural Network.
+        - This file combines `text feature` and `numerical features` using a Simple Feed Foward Neural Network.
     - BERT_CC.ipynb
         - This file explores using text feature by itself, and concatenating text feature with numericals into 1 text feature
 2. GPT-2
@@ -88,7 +84,7 @@ Converting text into embeddings helps to represent words in a high-dimensional s
 2. Feature Extraction such as meta features and Target Encoding
 3. How to use text embeddings to generate meaningful information out from raw text
 4. How to initialize and train traditional and transformer models with k-fold cross validation
-5. Using Datasets, DataLoaders, Trainers from the transformers library
+5. Learn how to utilize `transformers` and `scikit-learn` library
 6. Hyperparameter tuning with Random Search, Grid Search and Bayesian Optimization
 
 ## References
